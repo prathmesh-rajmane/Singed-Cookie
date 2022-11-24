@@ -41,7 +41,7 @@ def sign_cookie():
     Returns:
         Returns the Cloud-CDN-Cookie value based on the specified configuration.
     """
-    url_prefix = 'http://apess.tk/token.png/'
+    url_prefix = 'http://apess.tk/main.m3u8/'
     key_name = 'onekey'
     base64_key = 'VFB1a0E3YTJycHVfZjE1b0ZteTlLdz09'
     expiration_time = datetime.strptime('25 Nov 2022 15:19:49','%d %b %Y %H:%M:%S')
